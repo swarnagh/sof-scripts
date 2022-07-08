@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# This entire script is a hack. We need to re-use some existing test
+# This entire script is a hack. We need to just re-use some existing test
 # runner from some existing test framework eventually
 
 # These can also be overriden by the environment
