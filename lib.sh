@@ -150,7 +150,7 @@ fake_kern_error()
 
 }
 
-# Prints the .ldc file found on stdout, errors on stderr.
+# Removed dependency on ldc file here which previously Prints the .ldc file found on stdout, errors on stderr.
 find_ldc_file()
 {
     local ldcFile
