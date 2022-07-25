@@ -12,7 +12,7 @@
 
 # Error types
 # -----------
-#
+# Disabling kernel error check as the errors obtained here were not relevant to audio
 # This "database" gathers different sorts of error messages:
 
 # 1. Audio or audio-related errors
