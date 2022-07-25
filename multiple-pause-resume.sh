@@ -18,7 +18,7 @@ set -e
 ##    4. go through with tplg file
 ## Expect result:
 ##    no errors occur for either process
-##
+## disabled sof-kernel-log-check aftr wait and each iteration
 
 # shellcheck source=case-lib/lib.sh
 source "$(dirname "${BASH_SOURCE[0]}")"/../case-lib/lib.sh
