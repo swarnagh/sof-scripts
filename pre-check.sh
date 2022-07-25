@@ -2,7 +2,7 @@
 
 #set -e
 
-## a simple script to enable the right toplogy path for test cases before they are executed.
+## a simple script to enable the correct toplogy path for test cases before they are executed.
 
 ## disabled the sof logger dependency too
 
