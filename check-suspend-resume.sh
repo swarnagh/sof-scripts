@@ -17,7 +17,7 @@ set -e
 ## Expect result:
 ##    suspend/resume recover
 ##    check kernel log and find no errors
-##
+## disabled sof kernel log check for each iteration
 
 # shellcheck source=case-lib/lib.sh
 source "$(dirname "${BASH_SOURCE[0]}")"/../case-lib/lib.sh
