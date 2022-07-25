@@ -20,7 +20,7 @@ set -e
 ## Expect result:
 ##    suspend/resume recover
 ##    check kernel log and find no errors
-##
+## disabled sof kernel log check aftr every iteration
 
 source $(dirname ${BASH_SOURCE[0]})/../case-lib/lib.sh
 
