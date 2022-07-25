@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SUDO_CMD=$(command -v sudo)
-
+# Replaced journalctl  with croslog and dmesg to capture logs and store it
 trap 'func_exit_handler $?' EXIT
 # Overwrite other functions' exit to perform environment cleanup
 function func_exit_handler()
