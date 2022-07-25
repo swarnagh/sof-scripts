@@ -20,7 +20,7 @@ set -e
 ## Expect result:
 ##    kernel module removal / insert process is successful
 ##    check kernel log and find no errors
-##
+## removed sof kernel log check aftr kernel module remove and insert process
 
 TOPDIR="$(dirname "${BASH_SOURCE[0]}")"/..
 TOPDIR=$(cd "$TOPDIR" && pwd)
